@@ -49,7 +49,7 @@ public class ComputerTest {
 
         System.out.println("****Multiple Objects****");
 
-        Monitor theMonitor2 = container.getBean("monitorSony", Monitor.class); //Default Bean name
+//      Monitor theMonitor2 = container.getBean("monitorSony", Monitor.class); //Default Bean name
         Monitor theMonitor3 = container.getBean("sony", Monitor.class); //Custom Bean name
         Monitor theMonitor4 = container.getBean(Monitor.class); //@Primary
 
